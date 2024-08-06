@@ -1,0 +1,645 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'poppins',sans-serif;
+}
+
+ /* Navbar */
+
+.founder-page{
+    background-color: wheat;
+    width: 100%;
+    height: 200vh;
+}
+
+.founder-page-text{
+    background-image: url(nav.bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    padding-left: 30%;
+}
+
+.menu-bar{
+    display: none;
+}
+
+.navbar-links a{
+    padding-right: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+}
+
+.sign-in{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.sign-up{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 100px;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.quotes{
+    text-align: center;
+}
+
+.quotes h2{
+    color: orange;
+    text-shadow: 2px 2px 4px black;
+    width: 800px;
+    padding-left: 250px;
+    padding-top: 50px;
+}
+
+.quotes h3{
+    padding-top: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.quotes p{
+    width: 800px;
+    color: white;
+    padding-left: 250px;
+    padding-top: 10px;
+}
+
+.quotes button{
+    padding: 10px;
+    font-size: 15px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.about-founder{
+    padding-top: 500px
+}
+
+.foun-image{
+    float: right;
+    background-color: orange;
+    text-align: center;
+    margin-top: 130px;
+    margin-right: 120px;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.foun-image img{
+    height: 320px;
+    margin-top: -80px;
+}
+
+.foun-image h3{
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.foun-text{
+    width: 730px;
+    padding-top: 120px;
+    padding-left: 80px;
+}
+
+.foun-text h3{
+    color: orange;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.foun-text p{
+    padding-top: 15px;
+}
+
+.foun-text button{
+    margin-top: 18px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    width: 100px;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.mission-img img{
+    float: left;
+    padding-top: 60px;
+    padding-left: 60px;
+    width: 250px;
+    height: 250px;
+}
+
+.mission-text{
+    float: right;
+    width: 700px;
+    padding-top: 80px;
+    padding-right: 250px;
+}
+
+.mission-text h3{
+    color: orange;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.mission-text p{
+    padding-top: 10px;
+}
+
+.skills{
+    display: flex;
+    padding-left: 25px;
+}
+
+.values{
+    margin: 50px;
+    width: 300px;
+    height: 280px;
+    text-align: center;
+    background-color: orange;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 10px;
+}
+
+.values img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.values h3{
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.values p{
+    padding-top: 10px;
+}
+
+.leadership-team{
+    background-color: wheat;
+    padding-bottom: 20px;
+}
+
+.leadership-team h3{
+    text-align: center;
+    color: orange;
+    text-shadow: 1px 1px 2px black;
+    font-size: 25px;
+    padding-top: 10px;
+
+}
+
+.leadership-team img{
+    width: 900px;
+    height: 400px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 200px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.future-goal h3{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 50px;
+    color: orange;
+    text-shadow: 1px 1px 2px black;
+}
+
+.goal{
+    margin-right: 150px;
+    padding-left: 40px;
+}
+
+.goal h1{
+    background-color: orange;
+    padding: 25px;
+    display: inline-block;
+    border-radius: 100%;
+    margin-left: 25px;
+}
+
+.goal h4{
+    padding-top: 10px;
+}
+
+.goals-count{
+    margin: 30px;
+    display: flex;
+}
+
+.email input{
+    width: 400px;
+    height: 35px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid white 2px;
+    background-color: transparent;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.email input::placeholder{
+    color: white;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.name input{
+    width: 400px;
+    height: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid white 2px;
+    background-color: transparent;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.name input::placeholder{
+    color: white;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.address input{
+    width: 400px;
+    height: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid white 2px;
+    background-color: transparent;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.address input::placeholder{
+    color: white;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.message textarea{
+    width: 400px;
+    height: 70px;
+    border: solid white 2px;
+    background-color: transparent;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.message textarea::placeholder{
+    color: white;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.submit-page button{
+    width: 400px;
+    height: 35px;
+    background-color: orange;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.submit-page{
+    float: right;
+    padding: 10px;
+    padding-right: 200px;
+}
+
+.contact{
+    padding: 10px;
+    padding-left: 150px;
+}
+
+.call-us h3{
+    color: white;
+    padding-top: 20px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.call-us h3 i{
+    color: orange;
+    padding-right: 10px;
+}
+
+.call-us p{
+    padding-top: 10px;
+    padding-left: 30px;
+    color: white;
+}
+
+.location h3{
+    padding-top: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.location i{
+    color: orange;
+    padding-right: 10px;
+}
+
+.location p{
+    padding-top: 10px;
+    padding-left: 30px;
+    color: white;
+}
+
+.business-hours h3{
+    padding-top: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.business-hours i{
+    color: orange;
+    padding-right: 10px;
+}
+
+.business-hours p{
+    padding-top: 10px;
+    padding-left: 30px;
+    color: white;
+}
+
+.show-contact-details{
+    background-color: black;
+    opacity: 0.8;
+    height: 60vh;
+}
+
+.title h3{
+    color: orange;
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 790px){
+    .founder-page{
+        background-color: wheat;
+        width: 100%;
+        height: 400vh;
+    }
+    
+    .founder-page-text{
+        background-image: url(nav.bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height:     100%;
+        position: absolute;
+        border-bottom-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+    }
+    
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    
+    .navbar-links {
+        display: none;
+    }
+
+    .menu-bar {
+        display: block;
+    }
+
+    .menu-bar i{
+        color: orange;
+        text-shadow: 1px 1px 2px black;
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .sign-btn{
+        padding: 10px;
+    }
+    
+    .sign-in{
+        font-size: 13px;
+        padding: 7px;
+    }
+    
+    .sign-up{
+        font-size: 13px;
+        font-weight: bold;
+        color: white;
+        border: none;
+        width: 80px;
+        padding: 7px;
+    }
+
+    .quotes h2{
+        width: 300px;
+        font-size: 18px;
+        padding-left: 40px;
+        padding-top: 40px;
+    }
+    
+    .quotes h3{
+        padding-top: 30px;
+        font-size: 15px;
+        width: 280px;
+        padding-left: 50px;
+        
+    }
+    
+    .quotes p{
+        width: 300px;
+        padding-left: 40px;
+        padding-top: 20px;
+    }
+    
+    .quotes button{
+        width: 120px;
+        margin-top: 30px;
+    }
+    
+    .foun-image{
+        float: left;
+        margin-right: 0px;
+        margin-left: 35px;
+    }
+    
+    .foun-text{
+        float: left;
+        width: 340px;
+        padding-top: 20px;
+        padding-left: 30px;
+        text-align: justify;
+    }
+    
+    .foun-text h3{
+       padding-top: 10px;
+    }
+    
+    .mission-img img{
+        padding-top: 30px;
+        padding-left: 70px;
+    }
+    
+    .mission-text{
+        float: left;
+        width: 340px;
+        text-align: justify;
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 0px;
+    }
+    
+    .skills{
+        display: inline-block;
+        padding-left: 0px;
+    }
+    
+    .values{
+        margin: 20px;
+    }
+
+    .leadership-team h3{
+        font-size: 20px;
+    }
+    
+    .leadership-team img{
+        width: 350px;
+        height: 200px;
+        margin-left: 20px;
+    }
+
+    .future-goal h3{
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    
+    .goal{
+        margin-right: 0px;
+        padding-left: 20px;
+    }
+    
+    .goal h1{
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    
+    .goal h4{
+        font-size: 12px;
+    }
+
+    .submit-page{
+        float: left;
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 0px;
+    }
+
+    .email input{
+        width: 300px;
+    }
+    
+    .name input{
+        width: 300px;
+    }
+    
+    .address input{
+        width: 300px;
+    }
+    
+    .message textarea{
+        width: 300px;
+    }
+    
+    .submit-page button{
+        width: 300px;
+        
+    }
+
+    .contact{
+        display: inline-block;
+        padding-left: 10px;
+        text-align: center;
+    }
+    
+    .call-us h3{
+        padding-top: 20px;
+    }
+    
+    .call-us p{
+        padding-top: 10px;
+    }
+
+    .show-contact-details{
+        height: 130vh;
+    }
+    
+    .title h3{
+        padding-left: 50px;
+        padding-top: 40px;
+    }
+    
+    
+}
+   
