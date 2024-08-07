@@ -81,7 +81,7 @@ body{
     text-shadow: 2px 2px 4px black;
     width: 800px;
     padding-left: 250px;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .quotes h3{
@@ -534,7 +534,6 @@ body{
         width: 300px;
         font-size: 18px;
         padding-left: 40px;
-        padding-top: 40px;
     }
     
     .quotes h3{
@@ -560,6 +559,12 @@ body{
         float: left;
         margin-right: 0px;
         margin-left: 35px;
+        margin-top: 50px;
+    }
+
+    .foun-image img{
+        height: 320px;
+        margin-top: 0px;
     }
     
     .foun-text{
